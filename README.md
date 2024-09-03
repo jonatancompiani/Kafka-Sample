@@ -21,5 +21,5 @@ docker compose up -d
 
 > The cluster can be managed on the UI at http://localhost15001
 
-1. Run Kafka Producer, you can type a message, and press enter to submit it to Kafka
-2. Run Kafka Consumer, it will display the messages along with their offsets.
+2. Run Kafka Producer, you can type a message, and press enter to submit it to Kafka
+3. Run Kafka Consumer, it will display the messages along with their offsets.
