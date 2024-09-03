@@ -1,15 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Confluent.Kafka;
+﻿using Confluent.Kafka;
 
 Console.WriteLine("Starting Producer");
-
 
 var config = new ProducerConfig
 {
     BootstrapServers = "localhost:9092"
 };
 
-string inputText;
+string? inputText;
 do
 {
     inputText = Console.ReadLine();

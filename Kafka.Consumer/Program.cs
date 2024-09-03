@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Confluent.Kafka;
-using static Confluent.Kafka.ConfigPropertyNames;
-using System.Threading;
+﻿using Confluent.Kafka;
 
 Console.WriteLine("Starting Consumer");
 
